@@ -1,0 +1,53 @@
+export const clients = [
+  {
+    id: '1',
+    name: 'Marcus Reed',
+    sport: 'Basketball',
+    position: 'Point Guard',
+    team: 'Pro League',
+    status: 'Active',
+    commissionRate: 4,
+    deals: 3,
+    nextEvent: 'Contract review - Nov 5',
+  },
+  {
+    id: '2',
+    name: 'Sofia Alvarez',
+    sport: 'Soccer',
+    position: 'Forward',
+    team: 'National Team',
+    status: 'Active',
+    commissionRate: 5,
+    deals: 5,
+    nextEvent: 'Endorsement call - Oct 30',
+  },
+  {
+    id: '3',
+    name: 'Jamal Washington',
+    sport: 'Football',
+    position: 'Wide Receiver',
+    team: 'Free Agent',
+    status: 'Negotiating',
+    commissionRate: 3,
+    deals: 1,
+    nextEvent: 'Combine prep',
+  },
+  {
+    id: '4',
+    name: 'Elena Voss',
+    sport: 'Tennis',
+    position: 'Singles',
+    team: 'Tour',
+    status: 'Active',
+    commissionRate: 10,
+    deals: 4,
+    nextEvent: 'Tournament - Nov 12',
+  },
+];
+
+export const deals = [
+  { id: 'd1', client: 'Marcus Reed', brand: 'Nike', type: 'Endorsement', value: '$1.2M', status: 'Signed' },
+  { id: 'd2', client: 'Sofia Alvarez', brand: 'Adidas', type: 'Boot deal', value: '$450K', status: 'Negotiating' },
+  { id: 'd3', client: 'Elena Voss', brand: 'Rolex', type: 'Ambassador', value: '$800K', status: 'Active' },
+  { id: 'd4', client: 'Marcus Reed', brand: 'Gatorade', type: 'Campaign', value: '$300K', status: 'Signed' },
+];
